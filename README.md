@@ -7,13 +7,18 @@ ParabaikElixirConverter is just a [Elixir](http://elixir-lang.org) version of [P
 
 In your mix.ex,
 
-	defp deps do
-	    [{:parabaikElixirConverter, "~> 0.0.1"}]
-	end
+```elixir
+defp deps do
+  [{:parabaikElixirConverter, "~> 0.0.1"}]
+end
+```
 
 ##### Usage
 
-    Z12Uni.convert(text) # Zawgyi-One to Unicode
+```elixir
+Z12Uni.convert(text) # Zawgyi-One to Unicode
+```
     
-
-    Uni2Z1.convert(text) # Unicode to Zawgyi-One
+```elixir
+Uni2Z1.convert(text) # Unicode to Zawgyi-One
+```
